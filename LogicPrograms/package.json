@@ -1,0 +1,10 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
