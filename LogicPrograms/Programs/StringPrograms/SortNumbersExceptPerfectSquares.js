@@ -19,5 +19,5 @@ const sortNumbersExceptPerfectSquares = (arrayNumbers) => {
   }
   return realNumbers
 }
-const result = sortNumbersExceptPerfectSquares([56,4,27,48,45,16,34,78,36,34])
-console.log(result)
+const result = sortNumbersExceptPerfectSquares([7,3,4,17,16,30,25,21])
+console.log(result) // 3,7,4,17,16,21,25,30
