@@ -20,4 +20,4 @@ function commonPrefix(strings) {
 
 // Example usage:
 const array = ["Shardul","Sharvil","Shalmali","Shadab"];
-console.log("Common prefix:", commonPrefix(array)); // Output: "fl"
+console.log("Common prefix:", commonPrefix(array)); // Output: "Sha"

@@ -13,5 +13,14 @@ const removeDuplicates2 = (arr) => {
   })
   return unique
 }
-const result = removeDuplicates2([2,5,3,6,7,2,4,5])
+
+const removeDuplicates3 = (arr) => {
+  let mySet = new Set();
+  arr.forEach(element => {
+    mySet.add(element)
+  })
+  let arr2 = [... mySet]
+  return arr2
+}
+const result = removeDuplicates3([2,5,3,6,7,2,4,5])
 console.log(result)

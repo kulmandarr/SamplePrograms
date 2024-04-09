@@ -6,7 +6,7 @@ const filterNumbersFromString = (testString) => {
   // iterate over all characters
   for(let i = 0; i< chars.length; i ++){
   // check if the character is not a number
-    if (!isNaN(chars[i])){
+    if (!isNaN(Number(chars[i]))){
       // push the character to empty array
       testArr.push(chars[i])
     }
